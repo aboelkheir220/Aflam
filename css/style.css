@@ -1,0 +1,283 @@
+body::-webkit-scrollbar {
+  width: .7em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #777373f7;
+  outline: 1px solid slategrey;
+}
+.row {
+    margin-left: 15px;
+    margin-right: 15px
+}
+/* start navbar  */
+.navbar{
+    background:black;
+    height: 50px;
+}
+.navbar-brand span:first-child{
+    font-weight: bold;
+    font-size: 40px;
+    color: yellow;
+    margin-left: 30px
+}
+.navbar-brand span:last-child{
+    font-size: 40px;
+    color: red;
+}
+.navbar ul li .nav-link{
+    color: white;
+    margin-right: 7px
+}
+.navbar .nav-item{
+    text-align: end
+}
+.navbar form{
+    margin-left: 20px;
+}
+.navbar .connect{
+    background: #4caf50;
+    width: 100px;
+    border-radius: 10px
+}
+.navbar form button{
+    margin-right: 20px;
+    color: white;
+    background: black;
+    border-color: black
+}
+
+/* end navbar */
+/* start second navbar */
+.second-nav{
+    background: black;
+    color: white;
+    
+}
+.second-nav .row div{
+  margin: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    border: 10px;
+    border: 1px solid;
+    padding: 7px;
+    border-color: #a79898;
+    font-size: 18px;
+
+}
+.second-nav .row div a{
+    margin: 10px
+}
+/* end navbar */
+/* start new aflam */
+.new-aflam{
+    margin-top: 50px;
+    margin-bottom: 40px
+}
+.new-aflam h4{
+        text-align: initial;
+    margin: 20px;
+
+}
+.new-aflam .col-8 .col-3{
+    height: 300px;
+    width: 250px
+}
+.new-aflam .col-8 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px
+}
+.new-aflam .col-8 h6{
+   position: absolute;
+    bottom: 40px;
+    color: aliceblue;
+    left: 20px;
+    font-size: 20px
+}
+.new-aflam .col-8 p{
+     
+    position: absolute;
+    top: 270px;
+    color: aliceblue;
+    left: 90px;
+    font-size: 18px;
+
+}
+.new-aflam .one{
+    position: absolute;
+    top: 60px;
+    left: 2px;
+    display: none
+}
+.new-aflam .two{
+    position: absolute;
+    top: 60px;
+    left: 2px;
+    display: none
+}
+.new-aflam .three{
+    position: absolute;
+    top: 60px;
+    left: 2px;
+    display: none
+}
+.new-aflam .four{
+    position: absolute;
+    top: 60px;
+    left: 2px;
+    display: none
+}
+.new-aflam .col-6 button{
+    color: white;
+    background: #c70909;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.new-aflam .col-6 button:hover{
+    background: black
+}
+.new-aflam .col-8 button{
+    margin: 10px;
+    width: 140px;
+    
+}
+
+/* end new aflam */
+/* start film type */
+.type .row div{
+    margin: 13px;
+    margin-right: 25 px;
+    border: 1px solid;
+    padding: px;
+    border-color: #d45e5e;
+    width: 120px;
+    border-radius: 10px;
+    height: 40px;
+
+}
+.type .row div:hover{
+    background: #c11b2b;
+    color: aliceblue;
+    border-radius: 20px;}
+.type .row div h5{
+    line-height: 1.6
+}
+/* end film type */
+/* start aflam */
+.aflam{
+    margin-bottom: 50px
+}
+.aflam .aflamk{
+    display: flex;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #a2a09c;
+    margin-right: 30px;
+}
+.aflam .aflamk p{
+    margin-right: 20px
+}
+.aflam .aflamk .fa-angle-left{
+    line-height: 1.8;
+    margin-right: 20px
+}
+.aflam .row{
+     margin-right: 40px;
+
+}
+.aflam .row .ss{
+      height: 300px;
+    width: 237px;
+    margin: 10px;
+}
+.aflam .row .ss img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px
+}
+.aflam .row .ss button{
+    display: block;
+    width: 180px;
+    margin: 20px;
+}
+
+.aflam .row .ss .one ,.aflam .row .ss .two,.aflam .row .ss .three,.aflam .row .ss .four {
+    position: absolute;
+    margin-top: 40px;
+    display: none
+}
+.aflam .row .ss h6{
+     margin-top: -90px;
+    color: aliceblue;
+    font-size: 20px
+}
+.aflam .row .ss p{
+   
+    color: aliceblue;
+    font-size: 18px;
+}
+aflam .row .ss .col{
+    margin-top: 90px;
+    left: 230px;
+}
+.aflam .row .ss:hover .one{
+        display: block
+}
+.aflam .row .ss:hover .two{
+        display: block
+}
+.aflam .row .ss:hover .three{
+        display: block
+}
+.aflam .row .ss:hover .four{
+        display: block
+}
+.aflam .more{
+        width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #c30808;
+    margin: 30px;
+    color: white;
+    border-radius: 20px;
+
+}
+.aflam .hide{
+    display: none
+}
+/* start footer */
+.footer{
+     background: black;
+    color: white;
+    font-size: 18px;
+    line-height: 1.9;
+    height: 50px
+    
+}
+.footer .up{
+  width: 46px;
+    height: 46px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background: #eef5f4;
+    border-color: darkgrey;
+    font-weight: bold;
+    color: #444;
+    font-size: 25px;
+    line-height: 1;
+    text-decoration: none;
+    position: fixed;
+    top: 570px;
+    right: 5px;
+    display: none;
+    transition: .4s all ease-in-out;
+        transition-delay: .4s;
+}
